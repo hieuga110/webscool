@@ -1,0 +1,458 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif ;
+   
+}
+
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+
+
+
+#header {
+height: 46px;
+background-color: #000;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+z-index: 1;
+background-image: url("https://img2.thuthuatphanmem.vn/uploads/2018/12/13/hoa-dao-ngay-tet-dep_011000177.jpg");
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav > li > a{
+color: #fff;
+}
+
+#nav, .subnav {
+    list-style: none;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: white;
+    line-height: 46px;
+    padding:0 24px; 
+    display: block;
+    position: relative;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: #ccc;
+    }
+
+
+
+    #nav > li {
+        display: inline-block;
+    }
+
+#nav li {
+    position: relative;
+}
+
+#nav .subnav {
+    display: none; 
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    }
+
+    #nav .subnav a{
+        color: #000;
+        padding: 0 12px;
+        line-height: 38px;
+    }
+
+#slider  {
+  padding-top: 0px;
+
+}
+#header .search-btn {
+    float: right;
+    padding: 0 21px;
+}
+
+#header .search-btn:hover {
+    background-color: rgba(216, 45, 45, 0.904);
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 14px;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
+#slider {
+    margin-top: 46px;
+    padding-top: 10px;
+   
+   
+
+}
+.haidangdeptrai {
+ 
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background-image: url("https://toigingiuvedep.vn/wp-content/uploads/2021/05/ve-tranh-de-tai-truong-em.jpg");
+}
+
+#slider .text-content {
+     position: absolute;
+     bottom: 47px;
+     color: #fff;
+     left: 0;
+     right: 0;
+     text-align: center;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+#slider .text-description {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+
+
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 20px;
+}
+
+#content .section-sub-heading {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+
+#content .content-section {
+    width: 800px;
+    padding: 64px 0 112px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#content .about-text {
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 1.4;
+}
+
+#content .member-list {
+overflow: hidden;
+width: 765px;
+margin-top: 48px;
+padding-right: 50px;
+padding-left: 50px;
+}
+
+
+
+
+#content .member-item {
+float: left;
+width: 33.33333%;
+text-align: center;
+}
+
+#content .member-img{
+   margin-top: 15px;
+   width: 154px;
+ border-radius: 50px;
+}
+
+#content .member-Name {
+    
+    font-size: 15px;
+}
+
+/* Tour section */
+
+.tour-section {
+    background-color: #000;
+}
+
+.tickets-list {
+    background-color: #fff;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.tickets-list li {
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd ;
+}
+
+.tickets-list .sold-out {
+background-color: red;
+color: #fff;
+padding: 3px 4px;
+float: right;
+}
+
+.tickets-list .soluong {
+float: right;
+width: 24px;
+height: 24px;
+background-color: #000;
+color: #fff;
+border-radius: 50px;
+text-align: center ;
+line-height: 24px;
+margin-top: -3px;
+}
+
+
+/* places */
+.places-list {
+   margin-top: 32px;
+   margin-left: -8px;
+   margin-right: -8px;
+   padding-bottom: px;
+}
+.place-item {
+float: left;
+width: 33.33333%;
+padding: 30px 8px;
+}
+.place-img {
+
+width: 100%;
+display: block;
+}
+.place-img:hover {
+    opacity: 0.6;
+}
+
+.place-body{
+background-color: #fff;
+padding: 16px;
+font-size: 15px;
+}
+.place-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.place-time {
+   margin-top: 15px;
+   color: #757575;
+}
+.place-desc {
+   margin-top: 15px; 
+   line-height: 1.2;
+}
+
+.place-buy-btn {
+   color: #fff;
+   background-color: #000;
+   text-decoration: none;
+   padding: 11px 16px; 
+   display: inline-block;
+   margin-top: 12px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.model-container {
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+}
+
+
+.modal-header {
+    /* background-color: aquamarine; */
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.modal-heading-icon {
+margin-right: 16px;
+}
+
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #000;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.col {
+    float: left;
+    padding-left:  8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+.col-full {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.col-third {
+    width: 33.33333%;
+}
+
+.mt-8 {
+    margin-top: 8px !important ; 
+}
+
+.mt-16 {
+    margin-top: 8px !important ; 
+}
+
+.form-control {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+}
+
+
+/* contact fromn */
+.contact-content {
+    margin-top: 40px;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+   
+}
+
+.contact-form {
+    font-size: 15px;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contact-form .form-submit-btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 10px;
+    padding: 10px 16px;
+    float: right;
+    outline: none;
+    border: none;
+}
+
+.contact-form .form-submit-btn:hover {
+    background-color: #333;
+}
+
+
+
+/* map-section */
+.map-section img{
+    width: 100%;
+}
+/* footer */
+#footer {
+padding: 64px 16px;
+text-align: center;
+color: #333;
+} 
+#footer .cocials-list {
+    font-size: 24px;
+}
+
+#footer .cocials-list a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#footer .cocials-list a:hover{
+    color: #333;
+}
+#footer .coppyright {
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .coppyright a{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .coppyright a:hover{
+    color: red;
+}
